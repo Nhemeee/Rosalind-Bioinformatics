@@ -17,7 +17,7 @@ with open("C:/Users/HP/Downloads/rosalind_dna.txt", "r") as f:
 for base in ["A", "C", "G", "T"]:
     print(dna_string.count(base), end=" ")
 
-2. Transcribing DNA into RNA (RNA)
+### 2. Transcribing DNA into RNA (RNA)
 What it does: Simulates biological transcription by converting a coding DNA strand into its messenger RNA (mRNA) sequence by replacing every Thymine (T) with Uracil (U).
 
 SynBio Relevance: Mimics the first step of gene expression. When engineering a metabolic pathway, the host yeast cell must copy our synthetic DNA into mRNA before translating it into functional enzymes.
